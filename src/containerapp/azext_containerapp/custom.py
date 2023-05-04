@@ -59,7 +59,7 @@ from ._models import (
     ScaleRule as ScaleRuleModel,
     Volume as VolumeModel,
     VolumeMount as VolumeMountModel,)
-from ._models import DotnetTagProperty, ImagePatchableCheck, ImageProperties
+from ._models import OryxMarinerRunImgTagProperty, ImagePatchableCheck, ImageProperties
 
 from ._utils import (_validate_subscription_registered, _ensure_location_allowed,
                      parse_secret_flags, store_as_secret_and_return_secret_ref, parse_env_var_flags,
